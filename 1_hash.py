@@ -12,3 +12,9 @@ x = thisdict['avi']
 thisdict['andrew'] = 9000
 
 # print all keys
+for x in thisdict:
+    print(x)
+
+# print all values
+for x in thisdict:
+    print(thisdict[x])
