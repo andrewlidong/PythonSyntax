@@ -30,6 +30,7 @@ def solution(num1, num2):
     for i in num1:
         # ord returns an integer representing the unicode character.
         n1 += (ord(i) - ord('0')) * m1
+        # // returns the integral part of the quotient
         m1 = m1 // 10
 
     for i in num2:
